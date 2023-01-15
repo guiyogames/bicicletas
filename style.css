@@ -1,0 +1,111 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+  background-attachment: fixed;
+  font-family: "Roboto", Helvetica, sans-serif;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-content: center;
+}
+
+.herobox1 {
+  /* min-height: 300px; */
+  flex: 2;
+}
+
+.herobox2 {
+  /* min-height: 300px; */
+  flex: 1;
+}
+
+/* tarjetas */
+.cards {
+  
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card1 {
+  background-image: url(img/image-background-card1.jpg);
+  background-size: cover;
+  margin-top: 1em;
+  background-position: bottom;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(img/image-background-card2.jpg);
+  background-size: cover;
+  margin-top: 1em;
+  background-position: bottom;
+  min-height: 300px;
+  width: 30%;
+}
+
+.card3 {
+  background-image: url(img/image-background-card3.jpg);
+  background-size: cover;
+  margin-top: 1em;
+  background-position: bottom;
+  min-height: 300px;
+  width: 30%;
+}
+
+h1 {
+  font-size: 3.25rem;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: "Playfair Display", sefir;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.45rem;
+  margin-bottom: 0.5rem;
+}
+
+/* margen 10px es top, 30px es right, 20px es botton 30px es left */
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.75em;
+  margin: 10px 30px 20px 30px;
+  /* text-align: center; */
+}
+
+
+i{
+  font-size: 100px;
+  padding-top: 30px;
+ 
+}
+
