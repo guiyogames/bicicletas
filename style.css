@@ -10,6 +10,11 @@ body {
   font-size: 1.125rem;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   width: 1024px;
   min-height: 300px;
@@ -44,7 +49,6 @@ main {
 
 /* tarjetas */
 .cards {
-  
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -77,6 +81,13 @@ main {
   width: 30%;
 }
 
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
 h1 {
   font-size: 3.25rem;
   color: white;
@@ -98,14 +109,18 @@ p {
 .cards p {
   font-size: 0.85rem;
   line-height: 1.75em;
-  margin: 10px 30px 20px 30px;
+  margin-top: 10px;
   /* text-align: center; */
 }
 
-
-i{
+.cards i {
   font-size: 100px;
   padding-top: 30px;
- 
 }
 
+.my_button {
+  background-color: white;
+  color: #fa4083;
+  font-family: "Playfair Display", sefir;
+  padding: 11px 25px 11px 25px;
+}
