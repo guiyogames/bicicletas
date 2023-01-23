@@ -37,9 +37,15 @@ header {
 }
 
 main {
-  min-height: 300px;
+  min-height: 00px;
   display: flex;
   align-content: center;
+}
+
+.mai2{
+  min-height: 800px;
+  padding-top: 50px;
+ 
 }
 
 .herobox1 {
