@@ -200,14 +200,14 @@ a.navbutton {
   font-size: 0.8rem;
   padding-left: 30px;
 }
-
+/* Esto desactiva el menú desplegable cuando no se usa */
 .dropdown{
   display: none;
   position: absolute;
   z-index: 1;
   padding-top: 20px;
 }
-
+/* Esto activa el menú desplegable durante el desplazamiento */
 .navbutton:hover .dropdown{
   display: block;
 }
@@ -221,5 +221,33 @@ a.navbutton {
   color: #fa4083;
 }
 
+.inputwrapper{
+  margin-bottom: 20px;
+}
+
+input[type="text"],[type="email"], textarea {
+  padding: 12px 20px;
+  width: 100%;
+  font-family:'Roboto','sans-serif';
+  font-size: 1rem;
+  box-sizing: border-box;
+}
 
 
+label{
+  display: block;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-right-a{
+  margin-right: 20px;
+  display: inline-block;
+}
+
+form{
+  margin: 40px 0px;
+}
